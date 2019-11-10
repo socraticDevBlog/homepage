@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import philosophie from '../images/philosophie.png'
-import scrum from '../images/scrum.png'
-import blogue from '../images/blogue.png'
+import philosophie from '../images/philosophie.jpg'
+import scrum from '../images/scrum.gif'
+import blogue from '../images/blogue.jpg'
 
 class Main extends React.Component {
   render() {
