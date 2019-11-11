@@ -55,8 +55,7 @@ class Main extends React.Component {
             Philosophie à l'Université du Québec à Montréal. J'ai écrit un long
             mémoire au sujet du concept de sophisme. Cette forme d'argument
             trompeur fascine la plupart des étudiants. Toutefois, le concept de
-            sophisme est équivoque. Il est mal défini et mal compris. À l'aide
-            d'un professeur Australien et de professeurs Hollandais, je crois
+            sophisme est équivoque. Il est mal défini et mal compris. Je crois
             avoir été en mesure de pointer les lacunes de la conception naïve
             des sophismes. Grâce à la théorie pragma-dialectique de
             l'argumentation, nous sommes en mesure de mieux comprendre le sens
@@ -147,13 +146,12 @@ class Main extends React.Component {
             interventions.
           </p>
           <p>
-            Pour vraiment aprendre quelque chose. Pour maîtriser un sujet, rien
+            Pour vraiment apprendre. Pour maîtriser un sujet, rien
             ne vaut l'expérience de tenter de l'expliquer ; de l'enseigner. Au
             final, ce blogue, je le maintiens d'abord pour mon profit personnel
             !
           </p>
           <p>
-            Visitez mon blogue :{' '}
             <a
               href="https://socratic.dev"
               alt="hyper lien vers le blogue de Socratic Dev"
