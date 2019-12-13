@@ -77,7 +77,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Travail</h2>
+          <h2 className="major">Carrière</h2>
 
           <a
             href="https://www.linkedin.com/in/boninmaxime/"
@@ -91,21 +91,19 @@ class Main extends React.Component {
           </a>
           <p>
             Après une courte carrière dans l'enseignement, j'ai relevé le défi
-            d'une réorientation professionnelle. Je désirais avant tout faire
+            d'une réorientation professionnelle. Je voulais avant tout faire
             partie de la révolution technologique du XXIe siècle et mettre à
             profit mes compétences logiques dans la réalisation de projets
             concrets.
           </p>
           <p>
-            En sortant du collège, j'ai travaillé au sein de l'équipe de
-            Recherche et Développement d'une compagnie de développement de
-            logiciels de gestion. J'ai d'abord assuré la maintenance de leur
-            logiciel de gestion de cabinet médical. Ensuite, le développement
+            En sortant du collège, j'ai oeuvré au sein d'une équipe développant des
+            logiciels de gestion. J'ai d'abord assuré la maintenance du logiciel de gestion de cabinet médical. Ensuite, le développement
             d'une application mobile destinée aux professionnels travaillant sur
             la route a occupé tout mon temps.
           </p>
           <p>
-            Je travaille présentement à titre de consultant. Mon client est une
+            Je travaille présentement à titre de consultant. Je termine actuellement un mandat avec une
             grande agence gouvernementale. J'appuie les efforts de l'équipe en
             place pour maintenir et développer des solutions logicielles
             robustes. Ce rôle me permet de mettre à profit mon leadership ainsi
