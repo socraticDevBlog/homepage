@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Maxime Bonin homepage",
+    title: "Maxime Bonin | Homepage",
     author: "Maxime Bonin",
     description: "page perso développée en empruntant un thème HTML5"
   },
