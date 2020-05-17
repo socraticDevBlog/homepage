@@ -207,8 +207,8 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          {close}
         </article>
-        {close}
       </div>
     )
   }
