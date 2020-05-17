@@ -7,6 +7,7 @@
     "gatsby": "^2.20.8",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-preload-fonts": "^1.2.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sass": "^2.2.1",
     "node-sass": "^4.13.1",

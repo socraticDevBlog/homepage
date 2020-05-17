@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import philosophie from '../images/philosophie.jpg'
-import scrum from '../images/scrum.gif'
+import talk from '../images/talk.jpg'
 import blogue from '../images/blogue.jpg'
 
 class Main extends React.Component {
@@ -82,7 +82,7 @@ class Main extends React.Component {
             target="_blank"
           >
             <span className="image main">
-              <img src={scrum} alt="dessin de gens dans un stand-up meeting" />
+              <img src={talk} alt="dessin de gens dans un stand-up meeting" />
             </span>
           </a>
           <p>
@@ -99,10 +99,11 @@ class Main extends React.Component {
             scripts SQL et procédures stockées.
           </p>
           <p>
-            J'oeuvre comme développeur dans l'écosystème Microsoft. Je
-            suis aussi présentement en formation afin d'acquérir les compétences
-            de développeur Big Data dans l'écosystème Hadoop. Et quand il me
-            reste du temps, j'aime coder en Python, JavaScript et Scheme.
+            J'oeuvre comme développeur dans l'écosystème Microsoft. Je suis
+            aussi présentement en formation afin d'acquérir de nouvelles
+            compétences dans l'infonuagique et le big data. Et je suis un fier
+            défendeur du <em>web static</em> : un retour aux sites simples et
+            performants.
           </p>
           {close}
         </article>
@@ -128,18 +129,17 @@ class Main extends React.Component {
               />
             </span>
           </a>
+          <p>L'écriture demeure la meilleure façon de véhiculer des idées.</p>
           <p>
-            L'écriture demeure la meilleure façon de véhiculer des idées. Par le
-            biais d'articles publiés de façon hebdomadaire , je traite de sujets
-            qui m'intéressent. La plupart du temps, il s'agit de thèmes liés au
-            développement logiciel et au développement web. Toutefois, la
-            philosophie et l'humanisme motivent une portion appréciable de mes
-            interventions.
+            Je traite des sujets qui m'intéressent par le biais d'articles
+            publiés de façon régulière. La plupart du temps, il s'agit de thèmes
+            liés au développement logiciel et au développement web. La
+            philosophie et l'humanisme motivent aussi une portion appréciable de
+            mes interventions.
           </p>
           <p>
             Pour vraiment apprendre. Pour maîtriser un sujet, rien ne vaut
-            l'expérience de tenter de l'expliquer ; de l'enseigner. Au final, ce
-            blogue, je le maintiens d'abord pour mon profit personnel !
+            l'expérience de tenter de l'expliquer ; de l'enseigner.
           </p>
           <p>
             <a
@@ -153,6 +153,62 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        <article
+          id="contact"
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 class="major">Contact</h2>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://twitter.com/SocraticDevBlog"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Twitter"
+                class="icon brands fa-twitter"
+              >
+                <span class="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/boninmaxime/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="LinkedIn"
+                class="icon brands fa-linkedin"
+              >
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/socraticdevblog"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="GitHub"
+                class="icon brands fa-github"
+              >
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gitlab.com/socraticdev"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="GitLab"
+                class="icon brands fa-gitlab"
+              >
+                <span class="label">GitLab</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+        {close}
       </div>
     )
   }

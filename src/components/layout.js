@@ -42,7 +42,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Maxime Bonin' },
-              { name: 'keywords', content: 'Quebec City, developer' },
+              { name: 'keywords', content: 'Quebec City, developer, programmeur, analyste, développeur' },
             ]}
           >
             <html lang="fr" />

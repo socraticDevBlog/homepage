@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Maxime Bonin Homepage',
+        short_name: 'homepage',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -19,6 +19,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-preload-fonts'
   ],
 }
