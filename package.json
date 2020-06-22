@@ -16,7 +16,11 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "gatsby", "Maxime Bonin", "programmeur", "analyste", "développeur"
+    "gatsby",
+    "Maxime Bonin",
+    "programmeur",
+    "analyste",
+    "développeur"
   ],
   "license": "MIT",
   "scripts": {
