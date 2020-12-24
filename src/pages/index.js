@@ -5,6 +5,9 @@ import Header from '../components/header'
 import Main from '../components/main'
 import Footer from '../components/footer'
 
+// attribution for favicon
+// Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
