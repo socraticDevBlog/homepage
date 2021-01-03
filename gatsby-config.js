@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Maxime Bonin | Homepage",
-    author: "Maxime Bonin",
-    description: "page perso développée en empruntant un thème HTML5"
+    title: 'Maxime Bonin | Homepage',
+    author: 'Maxime Bonin',
+    description: 'page perso',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,6 +20,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-preload-fonts'
+    'gatsby-plugin-preload-fonts',
   ],
 }
