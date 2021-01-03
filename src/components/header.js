@@ -8,9 +8,10 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <p>
-          La page personnelle de ce Maxime Bonin qui est développeur web fullstack et développeur de logiciel
-        </p>
+        <h1 className="main-title readable-basic">
+          La page personnelle de ce Maxime Bonin qui est développeur web
+          fullstack et développeur de logiciel
+        </h1>
       </div>
     </div>
     <nav>
@@ -62,7 +63,7 @@ const Header = props => (
 
 Header.propTypes = {
   onOpenArticle: PropTypes.func,
-  timeout: PropTypes.bool
+  timeout: PropTypes.bool,
 }
 
 export default Header
